@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700");
+
+*{
+  color: #3D3B30;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 960px){
+  .container{
+      width: 800px;
+      margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px){
+    .container{
+        width: 550px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 540px){
+  .container{
+      width: 350px;
+      margin: 0 auto;
+  }
+}
+
+h1{
+  font-weight: 700;
+  font-size: 32px;
+}
+body{
+  background-color: #EAE6E5;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.img_circle{
+  width: 300px;
+  border-radius: 50%;
+}
+
+h3{
+  color: #A67DB8;
+  font-weight: 400;
+}
+ul > li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+  font-family: "Font Awesome 5 Brands";
+  font-size: 40px
+}
+.card{
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+i:hover{
+  cursor: pointer;
+  color: #A67DB8;
+  transform: scale(150%);
+}
